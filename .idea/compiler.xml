@@ -10,10 +10,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="service-hi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="service-hi" target="1.8" />
       <module name="SpringCloudsgyz" target="1.5" />
     </bytecodeTargetLevel>
   </component>
