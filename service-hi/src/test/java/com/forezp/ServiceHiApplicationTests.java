@@ -1,4 +1,4 @@
-package com.sgyz.servicehi.servicehi;
+package com.forezp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
