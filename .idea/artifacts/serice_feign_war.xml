@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="serice-feign:war">
+    <output-path>$PROJECT_DIR$/serice-feign/target</output-path>
+    <root id="archive" name="serice-feign-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="serice-feign:war exploded" />
+    </root>
+  </artifact>
+</component>
