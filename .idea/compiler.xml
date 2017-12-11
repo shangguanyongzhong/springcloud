@@ -12,14 +12,18 @@
         <module name="eureka-server" />
         <module name="service-feign" />
         <module name="service-hi" />
-        <module name="serviceribbon" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
       <module name="serviceribbon" target="1.8" />
+      <module name="servicezuul" target="1.5" />
       <module name="SpringCloudsgyz" target="1.5" />
     </bytecodeTargetLevel>
   </component>

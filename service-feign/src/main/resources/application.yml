@@ -4,6 +4,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 server:
   port: 8765
+#Feign是自带断路器的，在D版本的Spring Cloud中，它没有默认打开。需要在配置文件中配置打开它
+feign.hystrix.enabled: true
 spring:
   application:
     name: service-feign
